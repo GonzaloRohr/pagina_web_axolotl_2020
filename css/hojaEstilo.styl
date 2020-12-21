@@ -1,0 +1,325 @@
+color1 = #f0faff
+color2 = #ebf8ff
+
+colorResaltador1 = #02F5F7
+colorResaltador2 = #029DD6
+
+colorObscuro1 = #25476E
+colorObscuro2 = #04366E
+
+body 
+	background-color color1
+	margin 0
+	padding 0
+	header
+		width 100%
+		height 89.6vh
+		box-sizing border-box
+		overflow hidden
+		.row 
+			.col 
+				.container-header
+					width 100%
+					height 100vh
+					display flex 
+					flex-direction column
+					.col
+						.container-top-info
+							width 100%
+							height 50px
+							background-color colorObscuro1
+							background rgb(37,71,110)
+							background linear-gradient(180deg, rgba(37,71,110,1) 0%, rgba(37,71,110,1) 85%, rgba(0,0,0,1) 100%)
+							padding-left 32px 
+							padding-right 32px
+							padding-top 12px
+							padding-bottom 12px
+							i 
+								margin-left 32px
+								margin-right 12px
+								display inline-block
+								display inline-block
+								color #fff
+							p 
+								display inline-block
+								color #fff
+					.container-text-main
+						width 100%
+						height 100vh
+						background-image url('../fotos/fondo-header-3.png')
+						background-size 100% 100%
+						display flex
+						justify-content center 
+						align-items center
+						.text-info-background
+							width 100%
+							height 100%
+							padding 32px
+							display flex
+							background-color rgba(0, 0, 0, .40)
+							justify-content center 
+							align-items center
+							flex-direction column
+							font-family 'Bebas Neue', cursive
+							.container
+								width 950px !important
+								text-align left
+								h1 
+									text-align center
+									font-size 4.5em !important
+									color #fff
+							button 
+								font-size 1.5em
+								font-weight 700
+								font-family 'Baloo 2', cursive
+								color colorResaltador1
+								background-color transparent
+								padding 12px
+								margin-top 32px
+								border-radius 50px
+								border 1px solid colorResaltador1
+							button:hover
+								color colorObscuro1
+								background-color colorResaltador1
+								border 1px solid transparent
+								cursor pointer
+	nav.navbar
+		height 70px
+		background-color rgba(0, 0, 0, .5)
+		padding-top 0
+		padding-bottom 0
+		.container-fluid
+			a.navbar-brand
+				img 
+					margin-left 32px
+					width 250px
+			.navbar-toggler:focus
+				box-shadow none
+				border 0
+			.collapse
+				.navbar-nav
+					margin-right 32px !important
+					.nav-item 
+						.nav-link 
+							color #fff
+							margin-right 32px
+							font-weight 600
+							font-size 1.2em
+							font-family 'Baloo 2', cursive
+							&:hover 
+								color colorObscuro2
+					
+main 
+	section 
+		.row 
+			.col 
+				.container-section-a
+					width 100% 
+					.row 
+						.col-md-6
+							.container-section-a-h2
+								width 100%
+								height 100%
+								padding 32px
+								display flex 
+								justify-content center 
+								align-items center
+								background-color #e9ecf0
+								h2 									
+									text-align center
+									font-family 'Baloo 2', cursive
+									font-size 2.5em
+									font-weight 600
+									span 
+										color colorObscuro2
+						.col-md-6
+							padding 0
+							.container-cuerpo-2-a
+								width 100%
+								height 100vh
+								background-image url('../fotos/fondo-container-cuerpo-2-a.png');
+								background-size 100% 100%
+					
+// seccion 2
+
+section.cuerpo-2
+	.row 
+		.col
+			.container-section-a-text
+				width 100%
+				height 100%
+				display flex 
+				justify-content center 
+				align-items center
+				padding-top 200px
+				padding-bottom 200px
+				background-color colorObscuro2
+				h3 
+					font-family 'Montserrat', sans-serif
+					font-size 2.5em
+					font-weight bold
+					color #fff
+	.row 
+		.col-md-6
+			.container-details
+				width 100%
+				height 100%
+				background-color colorObscuro2
+				h2
+					font-family 'Montserrat', sans-serif
+					padding 32px
+					font-size 3em
+					color #fff
+				.section-details-info-a
+					width 100%
+					height 100%
+					.row 
+						.col-md-6
+							.box-details-info
+								width 90%
+								height 400px
+								padding 32px
+								border-top 1px solid #fff
+								border-bottom 1px solid #fff
+								h3 
+									font-family 'Baloo 2', cursive
+									font-weight bold
+									color #fff
+									padding-top 32px
+									padding-bottom 32px
+								p 
+									font-family 'Baloo 2', cursive
+									color #fff
+			.container-details-photo
+				width 100%
+				height 100%
+				background-image url('../fotos/background-page-ejemp-miniature.png')
+				background-size 100% 100%
+// seccion estadisticas
+section.section-estatistics
+	.row 
+		.col 
+			.container-info-estatistics
+				width 100%
+				height 100%
+				padding 200px
+				display flex 
+				justify-content center
+				align-items center
+				background-color #e9ecf0
+				.info-estadistics-text
+					h3 
+						font-family 'Montserrat', sans-serif
+						font-size 2.5em
+						font-weight bold
+						padding-bottom 32px
+					p 
+						font-family 'Baloo 2', cursive
+						font-size 1.5em
+						padding-bottom 32px
+					ul 
+						li 
+							font-family 'Baloo 2', cursive
+							font-size 1.2em
+							padding-bottom 12px
+							span 
+								font-weight 600
+								color colorObscuro2
+					
+// seccion ejemplos				
+section.section-examples-pages
+	padding-top 200px
+	padding-bottom 200px
+	.row 
+		.col 
+			.container
+				h3 
+					font-family 'Montserrat', sans-serif
+					text-align center
+					font-size 2.5em
+					font-weight bold
+					margin-bottom 100px
+				h4 
+					font-family 'Baloo 2', cursive
+				.container-examples-pages
+					width 100%
+					height 100%
+					display flex 
+					flex-wrap wrap
+					justify-content center						
+					.box-example-pages
+						height 350px
+						width 250px
+						position relative
+						margin 10px
+						box-sizing border-box
+						overflow hidden
+						&:hover 
+							.box-icon 
+								cursor pointer
+								display flex
+								height 100% !important
+						img 
+							width 100%	
+							height 80%
+						.container 
+							width 100%
+							height 20%
+							display flex
+							justify-content center 
+							align-items center
+							p 
+								font-family 'Baloo 2', cursive
+								font-weight bold
+								font-size 1.2em
+								margin 0
+						.box-icon
+							width 100%
+							height 0
+							display none
+							justify-content center
+							align-items center
+							flex-direction column
+							position absolute
+							top 0
+							left 0
+							background-color rgba(4, 54, 110, .5)
+							transition height 2s
+							-moz-transition height 2s
+							a 
+								display flex
+								justify-content center
+								align-items center
+								width 100%
+								height 100%
+								text-decoration none
+								i 
+									color #fff 
+									font-size 2.5em
+
+footer 
+	.row 
+		.col-md-6
+			a 
+				p
+					font-family 'Baloo 2', cursive
+					
+section.contacto 
+	width 100%
+	height 500px
+	.container-contact
+		width 100%
+		height 100%
+		display flex 
+		justify-content center 
+		align-items center
+		flex-direction column
+		h3 
+			text-shadow 5px 5px 20px #fff
+			font-family 'Baloo 2', cursive
+			font-size 2em
+			margin-bottom 50px
+		p 
+			text-shadow 5px 5px 20px #fff
+			font-family 'Baloo 2', cursive
+			font-size 2em

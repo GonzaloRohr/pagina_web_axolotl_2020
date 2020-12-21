@@ -1,0 +1,115 @@
+color0 = #4D4D4D
+color1 = #956868
+color2 = #808080
+color3 = #CC8F8F
+color4 = #CCCCCC
+
+.imagenesHeader
+	width: 100%
+	height: 80vh
+	box-sizing: border-box
+
+
+html
+	box-sizing border-box
+nav 
+	.navbar-collapse	
+		.items 
+			li
+				a.nav-link
+					color #9dc1c1 !important
+					transition 0.5s
+					&:hover						
+						color #fff !important
+
+.opacidad
+	background rgba(0, 0, 0, 0.5)
+
+.nosotros-background
+	height 40vh
+	background-image url('../imagenes/fondo1.png')
+	background-size 100% 100%
+	h2 
+		font-size 4rem 
+
+.carousel-item
+	position relative !important
+	
+.carousel-background
+	width 100%
+	height 100vh
+	background-color rgba(0, 0, 0, .50)
+	position absolute
+
+.imagenesEstudio
+	width 100%
+	height 80vh
+	
+.servicios-background
+	height 40vh
+	background-image url('../imagenes/fondoServicio.png')
+	background-size 100% 100%	
+	h2 
+		font-size 4rem
+
+.carousel-item	
+	.carousel-caption
+		div 
+			h5.display-3
+				strong
+					text-shadow: 10px 0 10px #000;
+	
+footer 
+	.index-side-information
+		div
+			p.h3 
+				color #fff
+			p
+				color #000
+		.index-side-icons
+			a
+				i.text-body 
+					&:hover 
+						color: #fff !important
+	.index-side-contact
+		div
+			h3
+				color #fff 
+			p 
+				color #000
+				span
+					font-weight 700
+					
+@media only screen and (max-width 728px)
+	body 
+		div.px-5
+			padding-right 1rem !important
+			padding-left 1rem !important
+			.info-contact-header
+				p
+					padding-right 0 !important
+	nav 
+		.navbar-brand
+			.h1
+				font-size 1.8rem !important
+		.navbar-toggler
+			color #808080 !important
+			border-color #fff !important
+	footer 
+		.index-side-icons
+			justify-content center
+			a 
+				i.fab 
+					font-size 2em
+					padding-left 15px !important
+					padding-right 15px !important
+		
+		.index-side-contact
+			.p-5
+				padding-left 1rem !important		
+				padding-right 1rem !important
+				.footer-tel
+					font-size 1.5em
+					text-align center
+					span 
+						font-weight 600		
